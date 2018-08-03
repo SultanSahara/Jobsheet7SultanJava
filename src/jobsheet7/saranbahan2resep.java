@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package jobsheet7;
-
+import java.util.Scanner;
 /**
  *
  * @author ASUS
@@ -16,6 +16,11 @@ public class saranbahan2resep {
     
     System.out.print("\nSaran Resep dari bahan milik anda\n");
     
-    
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Bahan Pertama: ");
+    System.out.println("1. Pisang");
+    System.out.println("2. Telur");
+    System.out.print("Masukkan no pilihan anda :");
+    int bahan1 = scanner.nextInt();
 }
 }
