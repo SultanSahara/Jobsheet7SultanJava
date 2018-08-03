@@ -29,9 +29,16 @@ System.out.println("\nIF.. 3");
 if (a > 5){
     System.out.println("isi Variable a : " + a);
     System.out.println("nilai a lebih dari 5");
+    
+    System.out.println("nIF..ELSE..");
+    if(a < 5){
+      System.out.println("Isi Variabel a = " + a);  
+      System.out.println("nilai a kurang dari 5");  
+    }else  System.out.println("nilai a lebih dari atau sama dengan 5");  
+    }
 }
 }
-}
+
             
     
 
